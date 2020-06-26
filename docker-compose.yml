@@ -1,0 +1,6 @@
+version: "3"
+services:
+  phoenix:
+    image: pojiro/phoenix_deploy_image_test
+    ports:
+      - 4000:4000

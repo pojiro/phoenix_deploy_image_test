@@ -4,6 +4,18 @@ This repo is for testing docker image of phoenix deployment.
 
 The Dockerfile includes build instructions, so the generated image is not small.
 
+# How to run docker container
+
+```
+$ docker container run -d -p 4000:4000 pojiro/phoenix_deploy_image_test:latest
+```
+
+or
+
+```
+$ docker-compose up -d
+```
+
 # MyApp
 
 To start your Phoenix server:
